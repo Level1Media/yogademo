@@ -1,0 +1,140 @@
+<% include partials/head.ejs %>
+
+
+    <body>
+
+    
+
+    	<!-- header -->
+
+        	<header role="header">
+
+            	<div class="container">
+
+                	<!-- logo -->
+
+                    	<h1>
+
+                        	<a href="/" title="home"><img src="images/logo-header.png" title="home" alt="home"/></a>
+
+                        </h1>
+
+
+                    <!-- logo -->
+
+                    <!-- nav -->
+
+                        <% include partials/nav.ejs %>
+
+                    <!-- nav -->
+
+                </div>
+
+            </header>
+
+     <!-- main -->
+
+        <main role="main-inner-wrapper" class="container">
+
+            
+
+            <div class="row">
+
+            
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
+
+                    <article role="pge-title-content" class="contact-header">
+
+                        <header>
+
+                            <h2>Gratitudehotyogacenter</h2>
+
+                        </header>
+
+                        <p><a href="tel:8197654321"><i class="fa fa-phone" aria-hidden="true"></i> 919-307-3325</a><a href="mailto:gratitudeyoga1@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> gratitudeyoga1@gmail.com</a></p>
+
+                    </article>
+
+                </div>
+
+                <!-- map -->
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+                        <div class="demo-wrapper">
+
+                            <div id="surabaya"></div>
+
+                        </div>
+
+                </div>
+
+                <!-- map -->
+
+                <div class="clearfix"></div>
+
+                
+
+               <!-- contat-from-wrapper -->
+
+               <div class="contat-from-wrapper">
+
+                      <div id="message"></div>
+
+                                <form method="post" action="php/contactfrom.php" name="cform" id="cform">
+
+                            <div class="row">
+
+                                <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+
+                                <input  name="name" id="name" type="text" placeholder="Whats your name">
+
+                                </div>
+
+                                <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+
+                                <input  name="email" id="email" type="email"  placeholder="Whats your email">
+
+                                </div>
+
+                            </div>
+
+                            <div class="clearfix"></div>
+
+                            <textarea name="comments" id="comments" cols="" rows="" placeholder="Whats in your mind"></textarea>
+
+                            <div class="clearfix"></div>
+
+                            <input name="" type="submit" value="Send email">
+
+                            <div id="simple-msg"></div>
+
+                        </form>
+
+               </div>
+
+               <!-- contat-from-wrapper -->
+
+                
+
+                
+
+            </div>
+
+        </main>
+
+    	<!-- main -->
+
+
+
+    <% include partials/footer.ejs %>
+
+   
+
+    
+    <% include partials/scripts.ejs %>
+
+    </body>
+
+</html>
