@@ -25,6 +25,8 @@ app.get('/', routes.home);
 
 app.get('/faq', routes.faq);
 
+app.get('/about', routes.about);
+
 app.get('/contact', routes.contact);
 
 	app.post('/contact',function(req,res,next){
@@ -66,7 +68,7 @@ app.get('/contact', routes.contact);
 
 	 });
 
-app.get('/about', routes.contact);
+
 
 
 
